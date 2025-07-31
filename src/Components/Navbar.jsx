@@ -17,9 +17,6 @@ const Navbar = () => {
             alt="Taskubar Logo"
             className="h-[40px] w-auto opacity-100 mix-blend-screen"
           />
-          <span className="absolute left-[50px] top-[10px] -translate-y-[15%] text-white font-neuePlak font-bold text-[25px] leading-[100%] tracking-[0%]">
-            Taskubar
-          </span>
         </div>
 
         {/* Desktop Nav */}
