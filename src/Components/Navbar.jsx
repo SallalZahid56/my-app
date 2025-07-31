@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/taskubar.jpg';
+import logo from '../assets/Diary-3.png';
 import { Menu, X } from 'lucide-react'; // Use Lucide icons (or switch to any icon lib you like)
 
 const Navbar = () => {
