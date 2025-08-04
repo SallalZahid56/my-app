@@ -40,7 +40,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section className="bg-[#050A2B] py-20 px-4">
+    <section id="Testimonials" className="bg-[#050A2B] py-20 px-4">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-12">
           What Our Clients Say

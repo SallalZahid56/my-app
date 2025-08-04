@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 
 const ContactSection = () => {
   return (
-    <section className="relative text-white rounded-3xl overflow-hidden my-12 mx-auto max-w-[1100px] px-4">
+    <section id="ContactSection" className="relative text-white rounded-3xl overflow-hidden my-12 mx-auto max-w-[1100px] px-4">
       {/* Gradient Background */}
       <div
         className="absolute inset-0 z-0 rounded-3xl"

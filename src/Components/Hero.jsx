@@ -3,7 +3,7 @@ import bgImage from '../assets/hero.png';
 
 const Hero = () => {
   return (
-    <section
+    <section id="Hero"
       className="min-h-screen relative flex items-center justify-center text-white px-4"
       style={{
         backgroundImage: `url(${bgImage})`,

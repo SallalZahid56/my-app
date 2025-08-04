@@ -143,7 +143,7 @@ const SectionSlider = ({ steps, reverse = false, bgColor = '#050A2B' }) => {
   }, [active, handleScroll]);
 
   return (
-    <section
+    <section id="Services"
       className="min-h-screen w-full flex items-center justify-center px-4 py-16 sticky top-0 overflow-hidden"
       style={{ backgroundColor: bgColor }}
     >

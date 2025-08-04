@@ -21,10 +21,12 @@ const Navbar = () => {
 
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-8 text-white text-lg font-thick mr-[20px]">
-          <li><a href="#" className="hover:text-purple-400 transition">Home</a></li>
-          <li><a href="#" className="hover:text-purple-400 transition">Services</a></li>
-          <li><a href="#" className="hover:text-purple-400 transition">How It Works</a></li>
-          <li><a href="#" className="hover:text-purple-400 transition">Testimonials</a></li>
+          <li><a href="#Hero" className="hover:text-purple-400 transition">Home</a></li>
+          <li><a href="#Services" className="hover:text-purple-400 transition">Services</a></li>
+          <li><a href="#HowItWorks" className="hover:text-purple-400 transition">How It Works</a></li>
+          <li><a href="#Testimonials" className="hover:text-purple-400 transition">Testimonials</a></li>
+          <li><a href="#FAQ" className="hover:text-purple-400 transition">FAQs</a></li>
+          <li><a href="#ContactSection" className="hover:text-purple-400 transition">Contact Us</a></li>
         </ul>
 
         {/* Hamburger Icon - Mobile Only */}
@@ -36,9 +38,11 @@ const Navbar = () => {
         {isOpen && (
           <div className="fixed top-0 left-0 w-full h-screen bg-[#050A2B] bg-opacity-95 flex flex-col items-center justify-center space-y-8 text-white text-xl font-semibold transition-all duration-300">
             <a href="#" onClick={toggleMenu} className="hover:text-purple-400">Home</a>
-            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">PDF Reader</a>
             <a href="#" onClick={toggleMenu} className="hover:text-purple-400">Services</a>
-            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">About us</a>
+            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">How It Works</a>
+            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">Testimonials</a>
+            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">FAQs</a>
+            <a href="#" onClick={toggleMenu} className="hover:text-purple-400">Contact Us</a>
           </div>
         )}
       </nav>
