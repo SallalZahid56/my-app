@@ -3,6 +3,9 @@ import Hero from './Components/Hero';
 import Services from './Components/Services'
 import HowItWorks from './Components/HowItWorks';
 import Testimonials from './Components/Testimonials';
+import FAQ from './Components/FAQ';
+import ContactSection from './Components/ContactSection'
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
       <Services />
       <HowItWorks />
       <Testimonials />
+      <FAQ />
+      <ContactSection />
+      <Footer />
     </>
   );
 }
