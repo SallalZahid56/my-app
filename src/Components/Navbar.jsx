@@ -22,9 +22,9 @@ const Navbar = () => {
         {/* Desktop Nav */}
         <ul className="hidden md:flex space-x-8 text-white text-lg font-thick mr-[20px]">
           <li><a href="#" className="hover:text-purple-400 transition">Home</a></li>
-          <li><a href="#" className="hover:text-purple-400 transition">PDF Reader</a></li>
           <li><a href="#" className="hover:text-purple-400 transition">Services</a></li>
-          <li><a href="#" className="hover:text-purple-400 transition">About us</a></li>
+          <li><a href="#" className="hover:text-purple-400 transition">How It Works</a></li>
+          <li><a href="#" className="hover:text-purple-400 transition">Testimonials</a></li>
         </ul>
 
         {/* Hamburger Icon - Mobile Only */}
